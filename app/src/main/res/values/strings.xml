@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">悬浮翻译</string>
+	<string-array name="language_detect">
+        <item>自动(Auto)</item>
+        <item>强制英文(English)</item>
+        <item>强制日文(Japanese)</item>
+    </string-array>
+	<string-array name="language_detect_val">
+        <item>auto</item>
+        <item>en</item>
+        <item>jp</item>
+    </string-array>
+	<string-array name="language_target">
+        <item>中文(Chinese)</item>
+        <item>英文(English)</item>
+    </string-array>
+	<string-array name="language_target_val">
+        <item>ch</item>
+        <item>en</item>
+    </string-array>
+	<string-array name="image_compress">
+        <item>30%</item>
+		<item>40%</item>
+        <item>50%</item>
+		<item>60%</item>
+		<item>70%</item>
+        <item>80%</item>
+		<item>90%</item>
+		<item>95%</item>
+        <item>100%</item>
+    </string-array>
+	<string-array name="image_compress_val">
+        <item>30</item>
+		<item>40</item>
+        <item>50</item>
+		<item>60</item>
+		<item>70</item>
+        <item>80</item>
+		<item>90</item>
+		<item>95</item>
+        <item>100</item>
+    </string-array>
+	<string-array name="image_size">
+        <item>50%</item>
+		<item>60%</item>
+		<item>70%</item>
+        <item>80%</item>
+		<item>90%</item>
+        <item>100%</item>
+    </string-array>
+	<string-array name="image_size_val">
+        <item>50</item>
+		<item>60</item>
+		<item>70</item>
+        <item>80</item>
+		<item>90</item>
+        <item>100</item>
+    </string-array>
+</resources>
