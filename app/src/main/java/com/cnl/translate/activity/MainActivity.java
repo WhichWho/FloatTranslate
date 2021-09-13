@@ -33,22 +33,6 @@ public class MainActivity extends BaseActivity{
 		init();
 		splash();
 		startService(new Intent(this, MainService.class));
-		if(false)
-		new Thread(new Runnable(){
-				@Override
-				public void run(){
-					final String accessToken = OCRCore.getInstance().oauth("GpgA6ArdSYKOHhBHz6QcbyxB", "GG2q09MFqDyIRqtGuyLgQlL9KGkizx4Y").toString();
-					runOnUiThread(new Runnable(){
-							@Override
-							public void run(){
-								Toast.makeText(MainActivity.this, accessToken, 0).show();
-								TextView tv = new TextView(MainActivity.this);
-								tv.setText(accessToken);
-								setContentView(tv);
-							}
-						});
-				}
-			}).start();
 	}
 
 	private void splash(){
